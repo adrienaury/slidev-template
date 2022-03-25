@@ -1,6 +1,43 @@
 # Slidev Template
 
-Run the template :
+## How to use this template
+
+First push the button `Use this template`
+
+![Use this template](public/images/demo.gif)
+
+Then activate GitHub Pages
+
+![Activate GitHub Pages](public/images/demo2.gif)
+
+Finally check the website
+
+Navigate to :
+
+```
+https://<your github user name>.github.io/<your repository name>
+```
+
+## How to edit and debug your slides
+
+### Prerequisites
+
+You need :
+
+- Visual Studio Code ([download](https://code.visualstudio.com/)) with the [Remote - Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) installed.
+- Docker Desktop (Windows, macOS) or Docker CE/EE (Linux)
+
+Details are available on [the official Visual Studio documentation](https://code.visualstudio.com/docs/remote/containers#_getting-started).
+
+### Run your workspace
+
+When opening the folder with [Visual Studio Code](https://code.visualstudio.com/), the [Remote - Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) will detect the devcontainer configuration and ask you to reopen the project in a container.
+
+Accept !
+
+### Run slidev
+
+From the VSCode terminal.
 
 ```console
 $ slidev
@@ -20,3 +57,5 @@ $ slidev
 
 
 ```
+
+Auto-reloaded slides will be on : http://localhost:3030/
