@@ -11,7 +11,7 @@ jobs:
       - name: Install Slidev
         run: npm install
       - name: Build
-        run: npx slidev build
+        run: npx slidev build --base /slidev-template
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
