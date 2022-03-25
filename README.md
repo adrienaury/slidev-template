@@ -1,4 +1,11 @@
-# Slidev Template
+# SliDev Template
+
+Features :
+
+- A Fully configured [SliDev](https://sli.dev/) environment
+- A GitHub action will automatically update your GitHub pages on every commit
+
+See it in action : https://adrienaury.github.io/slidev-template
 
 ## How to use this template
 
