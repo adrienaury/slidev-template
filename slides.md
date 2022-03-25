@@ -1,11 +1,53 @@
 ---
 layout: cover
-background: './static/images/daniel-j-schwarz-REjuIrs2YaM-unsplash.jpg'
+background: '/images/daniel-j-schwarz-REjuIrs2YaM-unsplash.jpg'
 ---
 
 # Slidev
 
-GitHub template
+GitHub template demonstration
+
+Use the <kbd>➡️ right arrow</kbd> or the <kbd>space bar</kbd> of your keyboard to navigate to next slide.
+
+---
+
+# How to use this template
+
+First push the button `Use this template`
+
+<img src="/images/demo.gif" class="h-95 rounded shadow" />
+
+---
+
+# How to use this template
+
+Then activate GitHub Pages
+
+<img src="/images/demo2.gif" class="h-95 rounded shadow" />
+
+---
+
+# How to use this template
+
+Finally check the website
+
+Navigate to :
+
+```
+https://<your github user name>.github.io/<your repository name>
+```
+
+---
+
+# Now you can make your first commit
+
+Edit the file `slides.md` in your new repository.
+
+The Slidev syntax is easy to learn, especially if you already know Markdown.
+
+Check the official [Slidev Demo](https://demo.sli.dev/starter/).
+
+And the [Markdown Syntax guide](https://sli.dev/guide/syntax.html).
 
 ---
 
