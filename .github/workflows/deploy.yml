@@ -9,9 +9,9 @@ jobs:
         with:
           node-version: '14'
       - name: Install Slidev
-        run: npm install -g @slidev/cli
+        run: npm install
       - name: Build
-        run: slidev build
+        run: npx slidev build
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
