@@ -80,12 +80,13 @@ Next slide is not affected
 # Static assets
 
 Just like you would do in markdown, you can use images pointing to a remote or local url.
+Put them into the public folder and reference them with leading slash.
 
-![Go Logo](static/images/2754575_man_avatar_male_icon.png)
+![Go Logo](/images/2754575_man_avatar_male_icon.png)
 
 If you want to apply custom sizes or styles, you can convert them to the <img> tag
 
-<img src="/static/images/Go-Logo_Aqua.png" class="h-40 rounded shadow" />
+<img src="/images/Go-Logo_Aqua.png" class="h-40 rounded shadow" />
 
 ---
 
