@@ -1,6 +1,7 @@
 ---
 layout: cover
 background: '/images/daniel-j-schwarz-REjuIrs2YaM-unsplash.jpg'
+download: true
 ---
 
 # Slidev
