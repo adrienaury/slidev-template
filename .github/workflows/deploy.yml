@@ -18,5 +18,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         with:
           build_dir: dist
+          keep_history: true
+          commit_message: "docs(pages): deploy to GitHub pages"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
